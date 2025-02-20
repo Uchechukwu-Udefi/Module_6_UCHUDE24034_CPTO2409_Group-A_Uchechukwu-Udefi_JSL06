@@ -69,6 +69,8 @@ function addToOrder(itemName) {
 
     // Update the text content of the order total element with the new total
     orderTotalElement.textContent = newTotal;
+    
+    console.log(orderTotalElement.textContent);
 
 }
 
