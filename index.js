@@ -46,7 +46,6 @@ function displayMenuItems(menu) {
     } 
             
 }
-console.log(displayMenuItems(menu));
 
 // Callback function for adding an item to the order
 function addToOrder(itemName) {
@@ -69,14 +68,14 @@ function addToOrder(itemName) {
 
     // Update the text content of the order total element with the new total
     orderTotalElement.textContent = newTotal;
-    
-    console.log(orderTotalElement.textContent);
 
 }
 
 // Function to initialize the menu system
 function initMenuSystem(menu) {
     // Call the function to display menu items
+    displayMenuItems(menu);
+
 }
 
 // Start the menu system by calling the init function
